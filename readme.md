@@ -45,7 +45,7 @@
 
 ## Примеры
 
-###Получить все записи
+### Получить все записи
 ```python
 import requests
 
@@ -183,6 +183,6 @@ response = requests.request("DELETE", url, headers=headers, data=payload)
 print(response.text)
 
 ```
-### Все примеры использования API приведены в тестах [tests.py](/tests.py)
+### Все примеры использования API приведены в тестах [tests.py](https://github.com/heliumbtw/car-sales-test/blob/master/webapp/tests.py)
 
 ### Выполните python manage.py tests для запуска тестов
