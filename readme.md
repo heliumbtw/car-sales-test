@@ -183,6 +183,6 @@ response = requests.request("DELETE", url, headers=headers, data=payload)
 print(response.text)
 
 ```
-### Все примеры использования API приведены в тестах [tests.py](tests.py)
+### Все примеры использования API приведены в тестах [tests.py](/tests.py)
 
 ### Выполните python manage.py tests для запуска тестов
